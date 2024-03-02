@@ -6,6 +6,7 @@
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+    color:white;
 }
 img {
     width: 200px;
@@ -15,7 +16,6 @@ img {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: aquamarine;
 }
 
 header {
@@ -64,16 +64,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+body {
+  background-image: url('12363.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 </style>
 <body>
     <header>
-        <h1>MY BLOG</h1>
-        <img src="C:\Users\puppa\OneDrive\Desktop\nit.jpg">
+        <h1>NITHIN PUPPALA</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#ABOUT ME">Home</a></li>
+                <li><a href="#EDUCATION">Education</a></li>
+                <li><a href="#PROJECTS">projects</a></li>
             </ul>
         </nav>
     </header>
@@ -81,15 +86,16 @@ footer {
     <main>
         <article>
             <h2>ABOUT ME</h2>
-            <p>computer science engineering student along with specialization in Artificial intelligence and Machine learning .
+            <p id="ABOUT ME">computer science engineering student along with specialization in Artificial intelligence and Machine learning .<br>
                 I consider my self a
                 responsible and orderly
-                person.
+                person.<br>
                 I am looking forward for
                 my first work
                 experience.</p>
             <a href="#">Read more</a>
             </article>
+
         <article>
             <h2>COMPUTER SKILLS</h2>
             <p>JAVA <br>DBMS
@@ -100,7 +106,7 @@ footer {
 
         <article>
             <h2>EDUCATION</h2>
-            <p>10TH (SSC BOARD)
+            <p id="EDUCATION">10TH (SSC BOARD)
                 10th SRI CHAITANYA SCHOOL
                 2018-2019 GPA:9.2 <br>
                 INTERMEDIATE (BIE BOARD)
@@ -113,9 +119,10 @@ footer {
             <a href="#">Read more</a>
         </article>
 
+
         <article>
             <h2>PROJECTS</h2>
-            <p>I have done AD1 and AD2 PROJECTS
+            <p id="PROJECTS">I have done AD1 and AD2 PROJECTS
                 AD1 - AUto Login Bot<br>
                 AD2 - MUET<br>
             </p>
@@ -124,7 +131,9 @@ footer {
     </main>
 
     <footer>
-        <p>&copy; 2024 PUPPALA NITHIN</p>
+        <p>&copy; 2024 PUPPALA NITHIN<br>
+            contact: 83********<br>
+            email: nithinpuppala936@gmail.com</p>
     </footer>
 </body>
 </html>
